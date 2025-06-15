@@ -35,7 +35,7 @@ export default function OnboardingScreen() {
         autoCapitalize="none"
       />
 
-      <Button title="Get Started" onPress={handleOnboardingComplete} />
+      <Button title="Next" onPress={handleOnboardingComplete} />
     </View>
   );
 }
